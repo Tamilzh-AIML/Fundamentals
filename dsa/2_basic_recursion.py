@@ -16,7 +16,7 @@ def recur1(N, name):
     print(name)
     if N == 1:
         return
-    recur(N-1, name)
+    recur1(N-1, name)
 
 
 """
